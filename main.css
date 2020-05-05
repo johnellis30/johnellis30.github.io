@@ -1,0 +1,103 @@
+@charset "utf-8";
+
+
+.band-hero {
+	background-color: #adadad;
+	background-color: #2e1114;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-image: url(images/dan-gold-YW9cBl03LmE-unsplash.jpg);
+	background-size: cover;
+}
+
+.band-whoweare {
+	background-color: #83677B;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.band-services {
+	background-color: #64485c;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.band-portfolio {
+	background-color: #501b1d;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.band-footer {
+	background-color: #2e1114;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+body {
+	color: white;
+	font-family: 'Varela', sans-serif;
+}
+
+h1 {
+	color: #83677B;
+	color: #adadad;
+	font-style: normal;
+	font-weight: 400;
+}
+
+h2 {
+	font-weight: bold;
+}
+
+p {
+	color: white;
+	font-style: normal;
+	font-weight: 400;
+}
+
+footer {
+	font-style: normal;
+	font-weight: 400;
+}
+
+
+
+a:link {
+	color: #FFFFFF;
+}
+
+
+
+.nav-bg {
+	background-color: #2e1114;
+}
+
+.dropdown-menu {
+	background-color: #2e1114;
+}
+.dropdown-item {
+  color: #ffffff;
+}
+
+.icon-banner {
+	padding-bottom: 15px;
+}
+
+.text-icon-banner {
+	padding-top: 15px;
+}
+
+a:visited {
+	color: #ADADAD;
+}
+
+/*small view*/
+@media (max-width: 576px){
+	h2.display-3 {
+		font-size: 3.5em;
+	}
+
+	.text-icon-banner {
+		padding-top: 45px;
+	}
+}
