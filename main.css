@@ -9,7 +9,11 @@
 	background-image: url(images/dan-gold-YW9cBl03LmE-unsplash.jpg);
 	background-size: cover;
 }
-
+.band-hero-noimage {
+	
+		padding-top: 50px;
+	padding-bottom: 50px;
+}
 .band-whoweare {
 	background-color: #83677B;
 	padding-top: 100px;
@@ -89,6 +93,31 @@ a:link {
 
 a:visited {
 	color: #ADADAD;
+}
+
+.card {
+	background-color: transparent;
+}
+
+.card .list-group-item {
+	background-color: transparent;
+}
+
+.add-margin-50 {
+	margin-top: 50px;
+}
+
+.add-margin-25 {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+#discount {
+	color: #002EAD;
+}
+
+.text-muted-rate {
+	color: #adadad;
 }
 
 /*small view*/
